@@ -1,4 +1,11 @@
+/* Observações:   
+Sempre que estiver trabalhando largura de alguma coisa e com laterais, por exemplo: padding-right, padding-left, margin-right,
+margin-left use: porcentagem.(%)
+Agora, trabalhando com altura, foca pixel: (px)
+Com extremidades superior e inferior, margin-top, margin-bottom, padding-top, padding-bottom  use pixel(px)
 
+*/
+/* RESET */
 *{
     margin: 0;
       padding: 0;
@@ -32,11 +39,12 @@ padding: 20px;
 /* -------MAIN------ */
 .main{
 display: flex;
-flex-direction: row;
+flex-direction: column;
 align-content: space-between;
 justify-content:space-around;
+margin-left: auto;
+margin-left: auto;
 }
-
 
 /* ---------FOOTER------------ */
 footer {
